@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-healthcheck-mongodb"
+version = "0.1.0"
+description = "A module built on top of the fastapi_healthcheck to check the status of your MongoDB / CosmosDB connection."
+authors = ["Anes Memišević <anesmemisevic23@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+fastapi-healthcheck = "^0.2.12"
+motor = "^3.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
