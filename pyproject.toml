@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.9"
 fastapi = "^0.104.1"
 fastapi-healthcheck = "^0.2.12"
-motor = "^3.3.2"
+pymongo = "^4.6.1"
 
 
 [build-system]
